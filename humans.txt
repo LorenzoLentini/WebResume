@@ -3,11 +3,11 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    <Lorenzo Lentini> -- <Webdev> -- <https://github.com/LorenzoLentini>
 
 # THANKS
 
-    <name>
+    <Simplon>
 
 # TECHNOLOGY COLOPHON
 
