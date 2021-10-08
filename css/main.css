@@ -19,7 +19,8 @@ h3 {
 }
 /* css reset for needed elements */
 header {
-  background-color: #afb3f7;
+  background-image: url("../img/webdev.png");
+  background-size: cover;
   width: 100vw;
 }
 
