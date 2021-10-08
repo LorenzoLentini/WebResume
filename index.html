@@ -7,11 +7,6 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
@@ -26,37 +21,37 @@
 <body>
   <!-- Barre de Navigation temporaire entre les pages, à terme, à faire en dynamique avec un framework-->
   <header>
-    <nav>
-      <a href="./diplomes.html"> Diplôme/Formation </a>
-      <a href="./competences.html"> Compétences </a>
-      <a href="./experiences.html"> Expériences </a>
-      <a href="./contacts.html"> Contacts/Git </a>
-    </nav>
+    <section class="offset_right">
+      <figure class="fig">
+        <img src="./img/PhotoPlaceholder.jfif" alt="photo" class="profilepic">
+      </figure>
+      <h2 class="name">LENTINI<br />LORENZO</h2>
+      <nav class="navbar">
+        <a class="linkbtn" href="./diplomes.html"> Diplômes<br />Formations </a>
+        <a class="linkbtn1l" href="./competences.html"> Compétences </a>
+        <a class="linkbtn1l" href="./experiences.html"> Expériences </a>
+        <a class="linkbtn" href="./contacts.html"> Git<br>Contacts</a>
+      </nav>
+    </section>
   </header>
-  <!-- Barre de Navigation temporaire entre les pages, à terme, à faire en dynamique avec un framework-->
-  <figure>
-    <img src="./img/PhotoPlaceholder.jfif" alt="photo" style="width: 200px;">
-  </figure>
 
-  <h1>WebDev</h1>
-  <h2>Lentini Lorenzo</h2>
+  <main class="content">
 
-  <section>
+    <h1 class="Importanttitle">WEBDEV</h1>
+    <section class="sectNtitle">
+      <h1 class="sectionTitle"> About Me: </h1>
 
-    <h2> About Me: </h2>
+      <p class="sectionp">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a lacus arcu.<br>
+        Nam vel enim ante. Interdum et malesuada fames ac ante ipsum primis in faucibus.<br>
+        Proin quis facilisis nulla. Ut libero mi, ultricies fringilla dictum tincidunt, convallis sit amet nisl.<br>
+        Nulla eget urna sed ipsum luctus tempus at nec leo. Suspendisse laoreet id urna ac bibendum.<br>
+        Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.<br>
+        Ut viverra nisl nec sapien tincidunt sollicitudin.<br>
+      </p>
+    </section>
 
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a lacus arcu.<br>
-      Nam vel enim ante. Interdum et malesuada fames ac ante ipsum primis in faucibus.<br>
-      Proin quis facilisis nulla. Ut libero mi, ultricies fringilla dictum tincidunt, convallis sit amet nisl.<br>
-      Nulla eget urna sed ipsum luctus tempus at nec leo. Suspendisse laoreet id urna ac bibendum.<br>
-      Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.<br>
-      Ut viverra nisl nec sapien tincidunt sollicitudin.<br>
-    </p>
-
-  </section>
-
-
+  </main>
 
 
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
