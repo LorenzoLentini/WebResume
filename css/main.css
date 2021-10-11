@@ -37,6 +37,7 @@ a {
 
 a:hover {
   color: #2e0219;
+  cursor: pointer;
 }
 .offset_right {
   display: flex;
@@ -52,6 +53,11 @@ a:hover {
 }
 .fig{
   filter:drop-shadow(0.2vw 6px 3px rgba(0, 0, 0, 0.5));
+}
+
+.profilepic:hover{
+  filter:  grayscale();
+  cursor: pointer;
 }
 
 .name {
