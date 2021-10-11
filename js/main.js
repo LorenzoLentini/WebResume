@@ -1,7 +1,7 @@
 function show(elementID) {
   var ele = document.getElementById(elementID);
   if (!ele) {
-      alert("no such element");
+      alert("no element with that ID !");
       return;
   }
   var pages = document.getElementsByClassName('page');
@@ -9,4 +9,12 @@ function show(elementID) {
       pages[i].style.display = 'none';
   }
   ele.style.display = 'block';
+}
+
+function bounce(elementClass) {
+  var ele = document.getElementsByClassName(elementClass);
+  if (!ele) {
+    alert("no element with that class !");
+  }
+  return;
 }

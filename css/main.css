@@ -21,7 +21,7 @@ h3 {
 header {
   background-image: url("../img/webdev.png");
   background-size: cover;
-  width: 100vw;
+  width: 100%;
 }
 
 footer{
@@ -42,6 +42,9 @@ a:hover {
 .offset_right {
   display: flex;
   justify-content: end;
+}
+p {
+line-height: 1.4em;
 }
 
 .profilepic {
@@ -174,8 +177,8 @@ background-color: #516151;
 }
 .skill{
   background-color: #516151;
-  padding: 0.5vw;
-  width: 10vw;
+  padding: 1vw;
+  width: 20vw;
   box-shadow: 1rem 1rem 0.5rem 1rem #131313;
 
 }
@@ -183,3 +186,5 @@ background-color: #516151;
 .skillpic{
   width: 25%;
 }
+
+
