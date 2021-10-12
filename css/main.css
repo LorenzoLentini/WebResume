@@ -47,6 +47,9 @@ p {
 line-height: 1.4em;
 }
 
+#logo3axes{
+  width: 50%;
+}
 .profilepic {
   position: absolute;
   width: 12vw;
