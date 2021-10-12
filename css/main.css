@@ -1,6 +1,6 @@
 body {
   background-color: #2e382e;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Press Start 2P', cursive;
 }
 
 figure,
@@ -39,10 +39,12 @@ a:hover {
   color: #2e0219;
   cursor: pointer;
 }
+
 .offset_right {
   display: flex;
   justify-content: end;
 }
+
 p {
 line-height: 1.4em;
 }
@@ -64,29 +66,30 @@ line-height: 1.4em;
 .profilepic:hover{
   filter:  grayscale();
   cursor: pointer;
+  -webkit-filter:  grayscale();
 }
 
 .name {
   text-align: center;
   margin-left: 14vw;
-  margin-top: 3.5vw;
+  margin-top: 4.5vw;
   color:#2e382e;
   text-shadow: 0.5rem 0.5rem 0.5rem #01050e;
 }
 
 .Importanttitle {
-  margin-top: 0.1vw;
-  margin-left: 14.5vw;
+  margin-top: 0.5vw;
+  margin-left: 15vw;
   text-shadow: 0.5rem 0.5rem 0.5rem #01050e;
   color:#516151
 }
 .name,
 .Importanttitle {
-  font-size: 3.3vw;
+  font-size: 2.5vw;
 }
 
 .navbar {
-  font-size: 1.6vw;
+  font-size: 1.2vw;
   padding-top: 6.5vw;
   width: 75vw;
   display: flex;
@@ -95,8 +98,8 @@ line-height: 1.4em;
 }
 
 .linkbtn {
-  padding-top: 0.55vw;
-  padding-bottom: 0.55vw;
+  padding-top: 0.83vw;
+  padding-bottom: 0.83vw;
   padding-left: 1.8vw;
   padding-right: 1.8vw;
   background-color: #828e82;
@@ -190,4 +193,9 @@ background-color: #516151;
   width: 25%;
 }
 
-
+.contact{
+  margin-top: 12vw;
+  background-color: #516151;
+  padding: 1.5vw;
+  font-size: 1.5vw;
+}
